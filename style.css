@@ -1,0 +1,30 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+}
+
+.flex-container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-card{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: white;
+  min-width: 250px;
+  min-height:340px;
+  padding-top: 15px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 12px;
+  box-shadow: 6px 6px;
+}
+
+.illustration{
+  max-width: 220px;
+  border-radius:7px;
+}
