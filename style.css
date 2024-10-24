@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+
 body {
   background-color: hsl(47, 88%, 63%);
 }
@@ -11,8 +13,9 @@ body {
 
 .flex-card{
   display: flex;
-  align-items: flex-start;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
   background-color: white;
   min-width: 250px;
   min-height:340px;
@@ -27,4 +30,27 @@ body {
 .illustration{
   max-width: 220px;
   border-radius:7px;
+  align-self: center;
+}
+
+.text{
+  font-family: Figtree;
+}
+
+.learning{
+  align-self: left;
+  padding: 3px 5px;
+  margin: 15px;
+  background-color: hsl(47, 88%, 63%);
+  max-width: 45px;
+  border-radius: 3px;
+  text-align: center;
+  font-size: 9px;
+  font-weight: 800;
+}
+
+.date{
+  margin-left: 15px;
+  font-size: 9px;
+  font-weight: 500;
 }
